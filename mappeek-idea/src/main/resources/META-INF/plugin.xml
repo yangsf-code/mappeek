@@ -2,8 +2,21 @@
     <id>mappeek.idea</id>
     <name>MapPeek</name>
     <version>0.1.1</version>
-    <vendor url="mailto:yangsf_app@163.com" email="yangsf_app@163.com">疯狂de程序员</vendor>
+    <vendor url="https://github.com/yangsf-code/mappeek" email="yangsf_app@163.com">疯狂de程序员</vendor>
     <description><![CDATA[
+        MapPeek detects the Map request and response fields of Java endpoints and turns them into API documentation your frontend can use right away.
+        <p>Standard documentation tools render <code>Map&lt;String, Object&gt;</code> as an empty object, so the frontend sees no fields at all.
+        MapPeek extracts the fields straight from source code, lets you confirm them inside the IDE, and exports in one click:</p>
+        <ul>
+            <li>Understands <code>map.put</code> literals, constant keys and <code>Map.of</code>, including nested Maps and <code>List&lt;Map&gt;</code></li>
+            <li>Expands entity / DTO / VO / record parameters and return types, reading <code>@Schema</code>, <code>@ApiModelProperty</code>, JavaDoc and validation annotations, with getter fallback</li>
+            <li>Resolves MyBatis column aliases from both <code>@Select</code> annotations and XML mappers</li>
+            <li>Reads <code>@Operation</code>, <code>@ApiOperation</code>, <code>@Tag</code> and custom annotations to fill endpoint titles and groups</li>
+            <li>Edit field descriptions directly in the tool window with live preview; saving regenerates the docs</li>
+            <li>Copy standard JSON Schema or OpenAPI 3.0 in one click and import it into Apifox / YApi / Postman</li>
+        </ul>
+        <p>Source code is only read: no compilation, no container startup, no changes to business files. The only write is the <code>.mappeek</code> directory in the project root.</p>
+
         <p><b>中文</b></p>
         <p><b>MapPeek</b> 自动识别 Java 接口里的 <code>Map</code> 入参与出参，生成可直接交付给前端的接口文档。</p>
         <p>标准文档工具遇到 <code>Map&lt;String, Object&gt;</code> 只能渲染成空对象，前端看不到任何字段。
@@ -17,29 +30,14 @@
             <li>一键复制标准 JSON Schema 或 OpenAPI 3.0，可直接导入 Apifox / YApi / Postman</li>
         </ul>
         <p>只读取源码，不编译、不启动容器、不修改业务文件。唯一写入是项目根目录下的 <code>.mappeek</code>。</p>
-
-        <p><b>English</b></p>
-        <p><b>MapPeek</b> detects the <code>Map</code> request and response parameters of Java endpoints and turns them into API documentation your frontend can use right away.</p>
-        <p>Standard documentation tools render <code>Map&lt;String, Object&gt;</code> as an empty object, so the frontend sees no fields at all.
-        MapPeek extracts the fields straight from source code, lets you confirm them inside the IDE, and exports in one click:</p>
-        <ul>
-            <li>Understands <code>map.put</code> literals, constant keys and <code>Map.of</code>, including nested Maps and <code>List&lt;Map&gt;</code></li>
-            <li>Expands entity / DTO / VO / record parameters and return types, reading <code>@Schema</code>, <code>@ApiModelProperty</code>, JavaDoc and validation annotations, with getter fallback</li>
-            <li>Resolves MyBatis column aliases from both <code>@Select</code> annotations and XML mappers</li>
-            <li>Reads <code>@Operation</code>, <code>@ApiOperation</code>, <code>@Tag</code> and custom annotations to fill endpoint titles and groups</li>
-            <li>Edit field descriptions directly in the tool window with live preview; saving regenerates the docs</li>
-            <li>Copy standard JSON Schema or OpenAPI 3.0 in one click and import it into Apifox / YApi / Postman</li>
-        </ul>
-        <p>Source code is only read: no compilation, no container startup, no changes to business files. The only write is the <code>.mappeek</code> directory in the project root.</p>
     ]]></description>
     <change-notes><![CDATA[
-        <p><b>中文</b></p>
-        <b>0.1.1</b>
+        MapPeek <b>0.1.1</b>
         <ul>
             <li>首次发布：Map 字段识别、工具窗口编辑与预览、OpenAPI 与 JSON Schema 导出</li>
         </ul>
         <p><b>English</b></p>
-        <b>0.1.1</b>
+        MapPeek <b>0.1.1</b>
         <ul>
             <li>First release: Map field detection, in-IDE editing and preview, OpenAPI and JSON Schema export</li>
         </ul>

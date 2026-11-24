@@ -8,17 +8,17 @@
 
 <!-- 下方徽章与插件页链接中的 Marketplace ID 由 project.properties 的 marketplace.id 统一生成，上架后填好重新构建即可 -->
 <p align="center">
-  <img alt="version" src="https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID?label=version&color=4F63F5" />
+  <img alt="version" src="https://img.shields.io/jetbrains/plugin/v/36420?label=version&color=4F63F5" />
   <img alt="IntelliJ IDEA 2023.3+" src="https://img.shields.io/badge/IntelliJ%20IDEA-2023.3%2B-000000?logo=intellijidea&logoColor=white" />
   <img alt="Java 17" src="https://img.shields.io/badge/Java-17-ED8B00?logo=openjdk&logoColor=white" />
   <img alt="license MIT" src="https://img.shields.io/badge/license-MIT-3DA639" />
-  <a href="https://plugins.jetbrains.com/plugin/PLUGIN_ID-mappeek"><img alt="Marketplace downloads" src="https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID?color=4F63F5" /></a>
+  <a href="https://plugins.jetbrains.com/plugin/36420-mappeek"><img alt="Marketplace downloads" src="https://img.shields.io/jetbrains/plugin/d/36420?color=4F63F5" /></a>
 </p>
 
 <p align="center">
   <a href="#安装">安装</a> ·
   <a href="#使用">使用</a> ·
-  <a href="https://plugins.jetbrains.com/plugin/PLUGIN_ID-mappeek">Marketplace</a> ·
+  <a href="https://plugins.jetbrains.com/plugin/36420-mappeek">Marketplace</a> ·
   <a href="RELEASE_NOTES.md">发布说明</a> ·
   <a href="README.en.md">English</a>
 </p>
