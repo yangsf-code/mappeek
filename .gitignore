@@ -1,0 +1,21 @@
+# 构建产物
+mappeek-core/target/
+mappeek-idea/build/
+mappeek-idea/dist/
+out/
+
+# MapPeek 扫描结果
+.mappeek/
+
+# IDE / 系统
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.DS_Store
+Thumbs.db
+
+# 本地临时文件
+.screenshots/
+*.log
